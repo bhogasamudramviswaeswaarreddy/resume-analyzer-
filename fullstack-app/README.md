@@ -45,7 +45,7 @@ resume_analyzer/
 ```sh
 git clone <your-repo-url>
 cd resume_analyzer/fullstack-app
-```
+   ```
 
 ### 2. **Database Setup (PostgreSQL)**
 - Install PostgreSQL (v16.x recommended)
@@ -79,9 +79,9 @@ cd resume_analyzer/fullstack-app
 
 ### 3. **Backend Setup**
 ```sh
-cd backend
-npm install
-```
+     cd backend
+     npm install
+     ```
 - Create a `.env` file in `backend/`:
   ```
   DB_USER=postgres
@@ -95,15 +95,15 @@ npm install
   ```sh
   node server.js
   # or
-  npm start
-  ```
+     npm start
+     ```
 
 ### 4. **Frontend Setup**
 ```sh
 cd ../frontend
-npm install
-npm start
-```
+     npm install
+     npm start
+     ```
 - The app will open at [http://localhost:3000](http://localhost:3000)
 
 ---

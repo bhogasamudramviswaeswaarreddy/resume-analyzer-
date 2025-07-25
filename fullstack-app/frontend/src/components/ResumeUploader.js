@@ -49,13 +49,13 @@ const ResumeUploader = () => {
       <form onSubmit={handleUpload} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16 }}>
         <label htmlFor="resume-upload" className="resume-upload-label">
           {file ? file.name : 'Click or drag a PDF file here to upload'}
-          <input
+        <input
             id="resume-upload"
-            type="file"
-            accept="application/pdf"
-            onChange={handleFileChange}
+          type="file"
+          accept="application/pdf"
+          onChange={handleFileChange}
             className="resume-upload-input"
-          />
+        />
         </label>
         <button
           type="submit"
